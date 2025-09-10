@@ -1,0 +1,49 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+[Scheme.Cur]
+"zuo_aero_arrow_l.cur"
+ "zuo_aero_helpsel_l.cur"
+"zuo_aero_working_l.ani"
+"aero_busy_l.ani"
+"Beam.cur"
+"aero_pen_l.cur"
+"aero_unavail_l.cur"
+"aero_ns_l.cur"
+"aero_ew_l.cur"
+"aero_nwse_l.cur"
+"aero_nesw_l.cur"
+"aero_move_l.cur"
+"aero_up_l.cur"
+"aero_link_l.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Aero"
+SCHEME_NAME     = "Aero"
+pointer		= "zuo_aero_arrow_l.cur"
+help		= "zuo_aero_helpsel_l.cur"
+work		= "zuo_aero_working_l.ani"
+busy		= "aero_busy_l.ani"
+cross		= "Cross.cur"
+text		= "Beam.cur"
+hand		= "aero_pen_l.cur"
+unavailiable	= "aero_unavail_l.cur"
+vert		= "aero_ns_l.cur"
+horz		= "aero_ew_l.cur"
+dgn1		= "aero_nwse_l.cur"
+dgn2		= "aero_nesw_l.cur"
+move		= "aero_move_l.cur"
+alternate	                = "aero_up_l.cur"
+link		= "aero_link_l.cur"
